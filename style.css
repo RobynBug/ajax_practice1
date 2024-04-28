@@ -1,6 +1,8 @@
 * {
   background: black;
   margin: 0;
+  font-family: "Verdana";
+  font-weight: normal;
 }
 
 body {
@@ -44,6 +46,7 @@ button {
 
 #delete {
   background-color: red;
+  width: 8rem;
 }
 
 #delete:hover {
