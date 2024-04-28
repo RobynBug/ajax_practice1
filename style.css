@@ -1,0 +1,51 @@
+* {
+  background: black;
+  margin: 0;
+}
+
+body {
+  height: auto;
+  width: 100vw;
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(9, 9, 9);
+  color: whitesmoke;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+input {
+  background-color: white;
+  height: 2.5rem;
+  border-radius: 5px;
+}
+
+button {
+  height: 2.5rem;
+  width: 7.5rem;
+  color: white;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: rgb(62, 62, 62);
+}
+
+#submit:hover {
+  background-color: black;
+  border-color: blue;
+}
+
+#delete {
+  background-color: red;
+}
+
+#delete:hover {
+  background-color: rgb(170, 7, 7);
+}
